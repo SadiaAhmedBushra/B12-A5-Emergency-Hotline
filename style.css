@@ -1,8 +1,6 @@
-.hind-madurai-light {
-  font-family: "Hind Madurai", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
+/* Add this at the top of your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;600;700&display=swap');
+
 
 .hind-madurai-regular {
   font-family: "Hind Madurai", sans-serif;
@@ -10,20 +8,4 @@
   font-style: normal;
 }
 
-.hind-madurai-medium {
-  font-family: "Hind Madurai", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
 
-.hind-madurai-semibold {
-  font-family: "Hind Madurai", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.hind-madurai-bold {
-  font-family: "Hind Madurai", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}

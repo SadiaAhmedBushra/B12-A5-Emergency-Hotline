@@ -74,13 +74,12 @@ document.querySelector(".cards-container").addEventListener("click", function (e
         const catchAllCopyBtn = e.target.closest(".copy-btn");
         const cardCaught = catchAllCopyBtn.closest(".card-1");
 
-        // const hotlineName = cardCaught.querySelector("h3").innerText;
         const hotlineNo = cardCaught.querySelector("h2").innerText;
 
         copyCount++;
         catchCopyBtnNavbar.innerHTML = copyCount + `<span>Copy</span>`;
 
         navigator.clipboard.writeText(hotlineNo);
-        alert( copyCount + " item copied!");
+        alert( "The number " + hotlineNo + " is copied!");
     }
 })
