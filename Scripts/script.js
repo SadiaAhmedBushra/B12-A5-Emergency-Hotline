@@ -34,7 +34,7 @@ document.querySelector(".cards-container").addEventListener("click", function (e
         coinCount -=20;
         catchCoinBtn.innerHTML = coinCount + `<span><img src="assets/coin.png" alt="" class="h-[20px] w-[20px]"></span>`;
 
-        alert("Calling " + hotlineName + " " + hotlineNo + "...");
+        alert("📞 Calling " + hotlineName + " " + hotlineNo + "...");
 
         
         const currentTime = new Date().toLocaleTimeString();
